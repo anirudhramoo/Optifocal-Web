@@ -1,0 +1,9 @@
+{
+    horizontal : (-4 = high load), (-3 = face not found), (-2 = calibrating), (-1 = right), (0 =  center), (1 = left)
+    vertical : (-1 = down), (0 =  center), (1 = up)
+    pitch : RAW NUMBER
+    yaw : RAW NUMBER
+    roll : RAW NUMBER
+    startpt : RAW POINT
+    endpt : RAW POINT
+}

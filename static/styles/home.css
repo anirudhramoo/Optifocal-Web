@@ -1,0 +1,117 @@
+@import url('https://db.onlinewebfonts.com/c/c8da3c58be0ab862c24357279216fe05?family=SF+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+body{
+	font-family: 'SF Mono', 'Source Code Pro' , sans-serif;
+}
+
+/* FIRST VIEW CSS ------------------------------------------------*/
+.center_div {
+	padding: 0px;
+	background-color: #cdf0ea;
+	padding-bottom: 4%;
+	
+  }
+  
+  .container {
+  }
+  
+  .header_div {
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	text-align: left;
+  }
+  
+  .heading {
+	margin-bottom: 1rem;
+  }
+  .header_text {
+	margin-bottom: 2.2rem;
+	font-size: 1.3rem;
+  }
+  
+  .header_image_div {
+	padding-top: 4%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	text-align: center;
+  }
+  .header_image {
+	width: 70%;
+  }
+  
+  @media (max-width: 990px) {
+	.header_div {
+	  text-align: center;
+	}
+  }
+  
+  /* ABOUT PROJECT CSS ------------------------------------------------*/
+  .about_project_div {
+	text-align: center;
+	margin-top: 5%;
+  }
+  
+  .about_project_heading {
+	margin-bottom: 3%;
+  }
+  .about_project_image {
+	width: 35%;
+	margin-bottom: 3%;
+  }
+  
+  .about_project_text {
+	padding-left: 10%;
+	padding-right: 10%;
+  }
+  
+  /* ABOUT US CSS ------------------------------------------------*/
+  .about_us_div {
+	text-align: center;
+	margin-top: 7%;
+	background-color: #cdf0ea;
+	padding-top: 5%;
+	padding-bottom: 5%;
+  }
+  
+  .about_us_heading {
+	margin-bottom: 3%;
+  }
+  
+  .about_us_text {
+	padding-left: 10%;
+	padding-right: 10%;
+  }
+  
+  /* GITHUB REPO CSS */
+  
+  .github_div {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+  }
+  
+  .card {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+  }
+  
+  .icon {
+	font-size: 3rem;
+	color: rgb(14, 13, 13);
+  }
+  
+  .icon:hover {
+	color: gray;
+  }
+  
+  /* FOOTER CSS ------------------------------------------------*/
+  
+  .footer_div {
+	text-align: center;
+	border-top: solid 1px black;
+	padding-top: 1%;
+  }
+  
