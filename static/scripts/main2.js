@@ -34,8 +34,8 @@ $(document).ready(function () {
     if (hor == -3) {
       notFoundCount++;
 
-      // Only display face not found if calibrating or if count exceeds 25
-      if (notFoundCount > 25 || horizontal == " - ") {
+      // Only display face not found if calibrating or if count exceeds 15
+      if (notFoundCount > 15 || horizontal == " - ") {
         document.getElementById("happening").textContent = "Face not Found";
         document.getElementById("happening").classList.remove("calibrating");
         document.getElementById("happening").classList.remove("allGood");
@@ -177,7 +177,7 @@ $(document).ready(function () {
 
       setInterval(function () {
         sendSnapshot();
-      }, 50);
+      }, 200);
     })
     .catch(function (error) {
       console.log(error);

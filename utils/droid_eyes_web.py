@@ -255,8 +255,8 @@ class attn_detector:
         self.right = [42, 43, 44, 45, 46, 47]
         self.gaze_ratio = 1
 
-        self.calib_vert = Calibrator(100, 10, "Vertical")
-        self.calib_hori = Calibrator(100, 25, "Horizontal")
+        self.calib_vert = Calibrator(35, 10, "Vertical")
+        self.calib_hori = Calibrator(35, 25, "Horizontal")
 
         self.consec_gaze = Counter(70)
         self.consec_hori = Counter(25)
