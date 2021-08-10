@@ -64,14 +64,16 @@
           </div>
           <div class="col-lg-3 instructions-div">
             <h2 class="instructions-header">Instructions</h2>
+            <p class="instruction">1. Please use Google Chrome.</p>
+
             <p class="instruction">
-              1. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              2. When calibrating, please keep still for up to a minute. If you
+              wish to reset, press the button below.
             </p>
 
             <p class="instruction">
-              2. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Note: Our demo may seem slow. This is mainly due to issues with
+              server-deployment and is not indicative of our performance.
             </p>
 
             <button
@@ -164,9 +166,24 @@
               <h5 class="card-title">Rotational Vectors (Pitch, Yaw, Roll)</h5>
               <hr />
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content. Some quick example text to build
-                on the card title and make up the bulk of the card's content.
+                Our model works by first calculating which direction the user’s
+                head is turned to then make a decision on how focused they are
+                on the task at hand. To do this it uses Pitch, yaw, and roll to
+                represent three different angles of rotation. Measured in
+                degrees, the values indicate how much your head has turned from
+                the baseline - with the baseline being you looking straight
+                ahead as measured during calibration.
+              </p>
+              <p class="card-text">
+                <strong><em>Pitch</em></strong> is for vertical rotation where
+                positive values indicate that you’re looking upward and negative
+                values meaning that you’re looking downward.
+                <strong><em>Yaw</em></strong> is horizontal rotation with
+                rightward turns being represented by negative values and
+                leftward turns being represented by positive values.Lastly,
+                <strong><em>Roll</em></strong> is how your head is tilted either
+                to the left or to the right represented by negative and positive
+                values respectively.
               </p>
             </div>
           </div>

@@ -18,7 +18,10 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/home.css') }}"
+    />
     <!-- <link rel="stylesheet" href="../static/styles/home.css" /> -->
     <title>Distraction Detector</title>
   </head>
@@ -30,7 +33,11 @@
             <div class="col-lg-6 header_div">
               <!-- <h1 class="heading">Welcome to Optifocal</h1> -->
               <p class="header_text">
-                <b> According to the CDC nine people die every day because of distracted driving. </b> Optifical is here to fix that.
+                <b>
+                  According to the CDC nine people die every day because of
+                  distracted driving.
+                </b>
+                Optifical is here to fix that.
               </p>
               <a href="/video" class="btn btn-outline-dark btn-lg"
                 >Try the web demo</a
@@ -59,9 +66,12 @@
           class="about_project_image"
         />
         <p class="about_project_text">
-          Optifocal drive is a computer vision application aimed acurately identifying a driver and then proctoring their attention to ensure that they stay alert
-          and focused.  By using OpenCV, Dlib, PnP (perspective N point) and SciPy our model is capable of accurately identifying a single face out of many, monitoring their attention,
-          and then taking action when their attention has {drifted}.  
+          Optifocal drive is a computer vision application aimed acurately
+          identifying a driver and then proctoring their attention to ensure
+          that they stay alert and focused. By using OpenCV, Dlib, PnP
+          (perspective N point) and SciPy our model is capable of accurately
+          identifying a single face out of many, monitoring their attention, and
+          then taking action when their attention has {drifted}.
         </p>
       </div>
     </section>
@@ -70,11 +80,15 @@
       <div class="about_us_div">
         <h1 class="about_us_heading">About Optifical</h1>
         <p class="about_us_text">
-          We are a team of {passionate} individuals interested in applying the latest technologies to solve challenging real world problems.
-          We are currently working towards training our own Tensorflow deep learning model to more efficiently detect {whether or not someone is paying attention}
-          across a broader range of environments and poses as well as applying more specific {categorizations}.  Additionally we are also developing a
-          cost efficient and easy to deploy hardware module that can be installed {anywhere as a digital proctor} {we are also currently optimizing our 
-          models to run fast on it as well}
+          We are a team of {passionate} individuals interested in applying the
+          latest technologies to solve challenging real world problems. We are
+          currently working towards training our own Tensorflow deep learning
+          CNN using a similar architecture to the well known mobile-net to more
+          efficiently detect {a drivers attention span} across a broader range
+          of environments and poses as well as applying more specific
+          {categorizations}. Additionally we are also developing a cost
+          efficient and easy to deploy hardware module that can be installed
+          {anywhere}.
         </p>
       </div>
     </section>
@@ -87,8 +101,12 @@
           </div>
           <div class="card-body">
             <div class="inner_card_div">
-              <p>Find the GitHub Repo here:</p>
-              <a href="https://github.com/AdityaU3672/optifocal"><i class="fab fa-github icon"></i></a>
+              <a href="https://github.com/AdityaU3672/optifocal"
+                ><i class="fab fa-github icon"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/79764441/admin/"
+                ><i class="fab fa-linkedin icon"></i>
+              </a>
             </div>
           </div>
         </div>
